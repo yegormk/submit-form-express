@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="submit-form.css">
+</head>
+<body>
+<div class="form-container">
+  <h2>Registration Form</h2>
+  <form id="registrationForm" action="#" method="POST">
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+
+    <div class="form-group">
+      <label for="confirm-password">Confirm Password</label>
+      <input type="password" id="confirm-password" name="confirm-password" required>
+    </div>
+
+    <div class="form-group">
+      <label for="additional-info">Additional Info</label>
+      <textarea id="additional-info" name="additional-info" rows="4"></textarea>
+    </div>
+
+    <div class="form-group checkbox-group">
+      <input type="checkbox" id="terms" name="terms" required>
+      <label for="terms">I agree to the terms and conditions</label>
+    </div>
+
+    <div class="form-group">
+      <button type="submit">Submit (GET)</button>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</div>
+<script src="submit-form.js"></script>
+</body>
+</html>
+
