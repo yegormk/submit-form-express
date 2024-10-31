@@ -12,7 +12,9 @@ const port = 3000;
 app.get('/users-form', (req, res) => {
     res.send(
       JSON.stringify({
-          res: 'Success!'
+        name: 'Yehor Petrov',
+        email: 'yehorpetrov@gmail.com',
+        note: 'National Aviation University, 511 group'
       })
     );
 });
